@@ -120,7 +120,7 @@ const LotteryBanner: React.FC<{ currentLotteryPrize: string }> = ({ currentLotte
               {inPrizes}
             </Text>
           </PrizeFlex>
-          <Link href="https://t.me/miniboxer" id="homepage-prediction-cta">
+          <NavLink exact activeClassName="active" to="/lottery" id="lottery-pot-banner">
             <Button>
               <Text color="white" bold fontSize="16px" mr="4px">
                 {t('Telegram')}
