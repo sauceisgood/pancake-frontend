@@ -13,7 +13,7 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x5481A517028813956005d77bcD0F561c7276b1e3',
       },
       {
         label: t('Liquidity'),
