@@ -102,7 +102,7 @@ const LotteryBanner: React.FC<{ currentLotteryPrize: string }> = ({ currentLotte
     <Wrapper>
       <Inner>
         <LeftWrapper>
-          <NowLive>{t('Lottery Now Live')}</NowLive>
+          <NowLive>{t('Join NOW')}</NowLive>
           <PrizeFlex>
             <Over fontSize="40px" color="#ffffff" bold mr="8px">
               {over}
@@ -120,10 +120,10 @@ const LotteryBanner: React.FC<{ currentLotteryPrize: string }> = ({ currentLotte
               {inPrizes}
             </Text>
           </PrizeFlex>
-          <NavLink exact activeClassName="active" to="/lottery" id="lottery-pot-banner">
+          <NavLink exact activeClassName="active" to="https://t.me/miniboxer" id="lottery-pot-banner">
             <Button>
               <Text color="white" bold fontSize="16px" mr="4px">
-                {t('Play Now')}
+                {t('Telegram')}
               </Text>
               <ArrowForwardIcon color="white" />
             </Button>
